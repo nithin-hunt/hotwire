@@ -1,0 +1,2 @@
+module Stimulus::BasicsHelper
+end
