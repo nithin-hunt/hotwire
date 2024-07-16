@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   namespace :stimulus do
     get 'basics/index'
   end
+  resources :quotes
   get 'home/index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
